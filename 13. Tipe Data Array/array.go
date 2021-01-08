@@ -13,6 +13,9 @@ Index di array di awali angka 0, yang berisikan tipe data yang sama
 saat membuat array harus menentukan jumlah data yang bisa ditampung
 Daya tampung tidak bisa bertambah setelah array dibuat,'
 kalau mau menambahkan data harus membuat array baru.
+
+jangan sampai lebih dari panjang Arraynya
+maka akan terjadi error pada programnya
 */
 
 package main
@@ -27,15 +30,23 @@ func main() {
 	names[1] = "Rasyid"
 	names[2] = "Zainuddin"
 
+	fmt.Println(names)
 	fmt.Println(names[0])
 	fmt.Println(names[1])
 	fmt.Println(names[2])
 
-	//Array langsung isi datanya tanpa ribet
+	/*
+		Membuat Array Langsung
+
+		Di Go-Lang kita juga bisa membuat Array secara langsung
+		saat deklarasi variable
+
+		Array langsung isi datanya tanpa ribet
+	*/
 	var values = [3]int{
-		90,
-		95,
-		80,
+		90, //index 0
+		95, //index 1
+		80, //index 2
 	}
 
 	fmt.Println(values)
@@ -45,12 +56,16 @@ func main() {
 
 	/*
 		Function di Array
+		Operasi 				--> Keterangan
+		len(array) 				--> Untuk mendapatkan panjang Array
+		array[index]			--> Mendapat data di posisi index
+		array[index] = value	--> Mengubah data di posisi index
 	*/
 
-	fmt.Println(len(names)) //Panjang Arraynya bukan jumlah arraynya
+	fmt.Println(len(names)) //panjang Arraynya bukan jumlah arraynya
 	fmt.Println(len(values))
 
 	var lagi [10]string
-	fmt.Println(len(lagi)) // output 10
+	fmt.Println(len(lagi)) // output 10, jadi panjang Arraynya, bukan jumlah data Arraynya
 
 }
