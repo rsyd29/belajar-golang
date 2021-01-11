@@ -28,9 +28,9 @@ func getHello(name string) string {
 func getHelloBaru(name string) string {
 	if name == "Budi" {
 		return "Hello Budi" // return di dalam kondisi
-	} else {
-		return "Hello " + name
 	}
+	return "Hello " + name
+
 }
 
 func main() {
