@@ -1,0 +1,6 @@
+Access Modifier (Pemberian Hak Akses)
+1. Di bahasa pemrograman lain, biasanya ada kata kunci yang bisa digunakan untuk menentukan access
+modifier terhadap suatu function atau variable
+2. Di Go-Lang, untuk menentukan access modifier, cukup dengan nama function atau variable
+3. Jika namanya diawali dengan huruf besar, maka artinya bisa di akses dari package lain,
+jika dimulai dengan huruf kecil, artinya tidak bisa diakses dari package lain
