@@ -1,0 +1,23 @@
+Package
+1. Package adalah tempat yang bisa digunakan untuk mengorganisir kode program
+yang kita buat di Go-Lang
+2. Dengan menggunakan package, kita bisa merapikan kode program yang kita buat
+3. Package sendiri sebenarnya hanya direktori folder di sistem operasi kita
+
+jadi kalau di dalam satu package yaitu folder helper tidak boleh ada nama function
+yang sama, harus beda
+
+tapi kalau kita membuat package yaitu folder yang berbeda maka boleh menggunakan
+nama function yang sama
+
+jadi kalau functionnya sama dan packagenya berbeda itu boleh
+tapi kalau packagenya sama lalu functionnya sama itu tidak boleh
+
+simplenya, jadi di satu package tidak boleh ada yang sama nama functionnya
+
+Bagaimana caranya mengakses file dari package yang berbeda? dengan menggunakan
+import
+1. Secara standar, file Go-Lang hanya bisa mengakses file Go-Lang lainnya yang
+berada dalam package yang sama
+2. Jika kita ingin mengakses file Go-Lang yang berada di luar package, maka kita
+bisa menggunakan import
