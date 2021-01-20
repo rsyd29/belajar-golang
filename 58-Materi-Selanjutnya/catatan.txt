@@ -1,0 +1,12 @@
+Sebelumnya sudah selesai, itu merupakan materi dari golang dasar
+
+di sini kita akan membahas tentang materi apa aja setelah mempelajari golang dasar ini
+untuk menjadi developer yang baik maupun expert
+
+Materi selanjutnya adalah
+1. Go-Lang Modules
+2. Go-Lang Unit Test
+3. Go-Lang Goroutines
+4. Go-Lang Database
+5. Go-Lang Web
+6. dan lain-lain.
